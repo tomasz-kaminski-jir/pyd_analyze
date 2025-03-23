@@ -44,7 +44,7 @@ jobs:
         run: python3 ./changes/make_history.py
 
       - name: install node for pyright
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '14'
 
